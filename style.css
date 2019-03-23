@@ -1,0 +1,101 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-image: url('main_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;   
+}
+.band {
+    text-align: center;
+}
+.band p{
+    margin-bottom: 80px;
+}
+.name {
+    text-align: center;
+}
+.name-box{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-box01{
+    text-align: center;
+    float: left;
+    margin-right: 100px;
+}
+.color{
+    background:black;
+    color: white;
+    height: 80vh;
+}
+.coment {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.coment span{
+    font-style: italic;
+}
+.year p{ 
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-bottom: rgb(136, 134, 134);
+    width: 780px;
+    padding: 15px;
+    margin: 0;
+    color: black;
+    background-color: #fffffff8;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sold::after{
+    margin-left: 10px;
+    content: 'Sold out';
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    background: red;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+}
+.box{
+    margin-bottom: 30px;
+
+}
+.img-box{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-box a{
+    color: white;
+    background: black;
+    padding: 7px 15px 7px 15px; 
+    text-decoration: none;
+    font-size: 15px;
+}
+.img-box a:hover{
+    background: #c7c7c7;
+    color: black;
+}
+.img-box01 , .img-box02, .img-box03{
+    float: left;
+    background: white;
+    color: black;
+    margin-right: 12px;
+}
+.img-box-01{
+    padding: 20px;
+}
+.explain-box{
+    background: white;
+}
+.load img{
+    width: 100%;
+    margin: 0;
+}
